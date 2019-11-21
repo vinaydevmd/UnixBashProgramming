@@ -65,6 +65,8 @@ Commands     | Description
 #chmod g-w <filename> | remove write access to group
 #chmod u-r <filename> | remove read access to user
 #chmod ugo-rwx <filename> | remove write,read,execute access to group,user and others
-  
+#chmod 1755 <dirname>  | Stickybit "1" applied only on shared directories, anyone can create files and access but only owners can delete
+#chmod 2644 <exefilename> | SGID bit,"2" stands for groupid set group id  -rwxrwSr'
+#chmod 4644 <exeflename> | SUID set user bit "4" to enable permission for user
   
 
